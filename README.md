@@ -76,7 +76,7 @@ make clean
 make
 ```
 
-> **Demo:** Insert a GIF showing how to clone and build the project here.
+> <img src="clone_gif.gif" alt="Clone and build demo" width="1300" />
 
 ### Running the Project
 
@@ -98,7 +98,7 @@ The program accepts command-line arguments that define the pack, shuffle setting
 - **`[p1]` through `[p4]`**: The in-game names of the players
 - **`[p1_type]` through `[p4_type]`**: Each player's type, either `Human` or `Simple`
 
-> **Demo:** Insert a video showing how to run the program and begin playing here.
+> <img src="run_gif.gif" alt="Run the game demo" width="1300" />
 
 ## Usage Examples
 
@@ -186,7 +186,7 @@ The project is separated into four main C++ abstractions:
 - `Card`
 - `Player`
 
-> **Diagram:** Insert the overall system architecture diagram here.
+> ![Overall system architecture diagram](full_diagram.png)
 
 ### Game
 
@@ -240,7 +240,7 @@ The `SimplePlayer` is a computer-controlled player that uses a basic decision tr
 
 The `HumanPlayer` represents a person playing the game through the terminal. The program prints available commands and card choices while enforcing the rules of Euchre, including the requirement to follow suit.
 
-> **Diagram:** Insert the player-class logic diagram here.
+> ![Player-class logic diagram](player_diagram.png)
 
 ## Frequently Asked Questions
 
